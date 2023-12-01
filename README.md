@@ -5,7 +5,8 @@ This TensorFlow layer implements an affine image transformation on 5D image batc
 The layer takes a 5D image batch tensor of shape (batch_size, frames, height, width, channels) and a transformation parameter tensor of shape (batch_size, frames, 6) containing the affine transformation matrices per image.
 
 It transforms the image grids accordingly and returns the transformed 5D batch.
-###important note: deafualt image shape is (304,608,1) consider changing it beforhand 
+
+### important note: deafualt image shape is (304,608,1) consider changing it beforhand 
 
 
 usage: 
